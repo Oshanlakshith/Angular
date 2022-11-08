@@ -14,6 +14,7 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app).toBeTruthy();
+
   });
 
   it(`should have as title 'angular-tour-of-heroes'`, () => {
@@ -28,4 +29,6 @@ describe('AppComponent', () => {
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('.content span')?.textContent).toContain('angular-tour-of-heroes app is running!');
   });
+ 
 });
+
