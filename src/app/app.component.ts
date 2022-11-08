@@ -18,6 +18,6 @@ if(email=="oshanlakshitha146@gmail.com" && password=="12345"){
 alert("Confirm")
 }else{
 alert("loging Fail") 
-}
-}
+    }
+  }
 }
